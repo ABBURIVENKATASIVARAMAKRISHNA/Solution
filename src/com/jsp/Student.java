@@ -5,7 +5,14 @@ public class Student {
 	int id;
 	String name;
 	long contact;
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	String password;
+	String email;
 	public String getPassword() {
 		return password;
 	}
