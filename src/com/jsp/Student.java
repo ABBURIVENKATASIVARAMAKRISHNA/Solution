@@ -37,4 +37,9 @@ public class Student {
 	public void setContact(long contact) {
 		this.contact = contact;
 	}
+	@Override
+	public String toString()
+	{
+		return "Id: "+id+"Name: "+name;
+	}
 }
